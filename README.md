@@ -22,3 +22,8 @@ SELECT * FROM `bigquery-public-data.census_bureau_international.midyear_populati
 where age > 25
 order by age
  LIMIT 5
+CODE NO.10
+SELECT * FROM `bigquery-public-data.census_bureau_international.midyear_population_agespecific`
+where year > 2001 and age > 25
+order by age
+ LIMIT 5
