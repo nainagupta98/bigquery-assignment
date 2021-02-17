@@ -17,3 +17,8 @@ CODE NO.8
 SELECT sum(population) FROM `bigquery-public-data.census_bureau_international.midyear_population_agespecific`
 where age > 30
  LIMIT 5
+CODE NO.9
+SELECT * FROM `bigquery-public-data.census_bureau_international.midyear_population_agespecific`
+where age > 25
+order by age
+ LIMIT 5
